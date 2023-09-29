@@ -1,0 +1,508 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Ubuntu", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+/* main styling starts here  */
+
+#main {
+  width: 70%;
+  height: 60vh;
+  margin: auto;
+  background-color: chartreuse;
+}
+
+.container {
+  padding: 0;
+  width: 100%;
+  height: 85%;
+  background-color: #000;
+}
+
+.container .left_container {
+  width: 30%;
+  height: 100%;
+  background-color: red;
+}
+
+.container .left_container img {
+  height: 100%;
+  width: 100%;
+}
+
+.container .right_container {
+  width: 70%;
+  height: 100%;
+}
+
+.container .right_container .top {
+  width: 100%;
+  height: 40%;
+  background-color: rgb(0, 0, 0);
+}
+
+.container .right_container .middle {
+  width: 100%;
+  height: 20%;
+  background-color: rgb(19, 25, 25);
+  padding: 0 2rem;
+}
+
+.container .right_container .bottom {
+  width: 100%;
+  height: 40%;
+}
+
+.name {
+  width: 50%;
+  height: 100%;
+}
+
+.name h1 {
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 900;
+}
+
+.social_icon {
+  width: 50%;
+  height: 100%;
+  padding: 0 4rem;
+}
+
+.social_icon i {
+  font-size: 2.4rem;
+}
+
+.home {
+  width: 25%;
+  height: 100%;
+  background-color: rgb(85, 168, 2);
+}
+
+.home:hover {
+  cursor: pointer;
+}
+
+.bottom i {
+  font-size: 4rem;
+}
+
+.About {
+  width: 25%;
+  height: 100%;
+  background-color: rgb(246, 107, 92);
+}
+
+.About:hover {
+  cursor: pointer;
+}
+
+.work {
+  width: 25%;
+  height: 100%;
+  background-color: rgb(7, 142, 190);
+}
+
+.work:hover {
+  cursor: pointer;
+}
+
+.contact {
+  width: 25%;
+  height: 100%;
+  background-color: rgb(255 157 94);
+}
+
+.contact:hover {
+  cursor: pointer;
+}
+
+.download_resume {
+  width: 100%;
+  height: 15%;
+}
+
+.download_resume .link {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 30%;
+  height: 80%;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  gap: 1rem;
+}
+
+.download_resume .link:hover {
+  cursor: pointer;
+}
+
+.download_resume .link a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.link i {
+  font-size: 2rem;
+  color: #000 !important;
+}
+
+/* home page styling start here  */
+
+.homePage {
+  margin-top: 1rem;
+  width: 100%;
+  background-image: linear-gradient(to left, #fff 83%, #c3f5ff 20%);
+}
+
+.homePage span {
+  color: rgb(255, 77, 0);
+}
+
+.left-side h2 {
+  color: #000 !important;
+}
+
+.homePage {
+  height: auto;
+  display: none;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-side {
+  color: #000;
+  text-transform: uppercase;
+}
+
+.left-side h3 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.left-side h3:after {
+  content: "";
+  width: 350px;
+  height: 3px;
+  position: absolute;
+  top: 43%;
+  left: 36%;
+  background-color: #000;
+}
+
+.left-side h1 {
+  margin-top: 20px;
+  font-size: 60px;
+  margin-bottom: 25px;
+}
+
+.left-side h2 {
+  margin-bottom: 35px;
+  font-weight: 500;
+  word-spacing: 4px;
+}
+
+.left-side .btn1,
+.btn2 {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 14px;
+  text-align: center;
+  padding: 12px 25px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.left-side .btn1 {
+  color: white;
+  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
+    radial-gradient(circle at top left, #4458dc, #854fee);
+  border: double 2px transparent;
+  box-shadow: 0 10px 30px rgba(118, 85, 225, 0.3);
+}
+
+.left-side .btn2 {
+  border: 2px solid #4458dc;
+  color: #222;
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.left-side .btn2:hover {
+  color: white;
+  background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
+    radial-gradient(circle at top left, #4458dc, #854fee);
+}
+
+.left-side .btn1:hover {
+  border: 2px solid #4458dc;
+  color: #222;
+  background-color: #fff;
+  box-shadow: none;
+  background-image: none;
+}
+
+.right-side {
+  width: 50%;
+  background-color: rgb(254 251 251);
+  padding: 1rem 2rem;
+}
+
+.mySelf {
+  gap: 1.5rem;
+}
+
+.mySelf h2 {
+  font-size: 3rem !important;
+  color: #000 !important;
+}
+
+.mySelf p {
+  font-size: 1.8rem;
+}
+
+.mySelf li {
+  font-size: 2rem;
+}
+
+/* home page styling ends here  */
+
+/* Project page styling here  */
+
+.projectsPage {
+  padding: 2rem 18rem;
+  width: 100%;
+  height: auto;
+  background-color: #add2ce;
+  display: none;
+}
+
+.projectsPage .project_header span {
+  color: rgb(255, 77, 0);
+}
+
+.projectsPage .all_projects {
+  width: 100%;
+  height: auto;
+}
+
+.projectsPage .all_projects .project-info {
+  padding: 30px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background-image: linear-gradient(60deg, #29323c 0%, #29323c 100%);
+  color: white;
+}
+
+.projectsPage .all_projects .project-info h2 {
+  font-size: 2rem;
+}
+
+.projectsPage .all_projects .project-info h3 {
+  color: rgb(255, 77, 0);
+}
+
+.projectsPage .all_projects .project-img {
+  height: 40vh;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Project page styling ends here  */
+
+/* Work page styling starts here  */
+.workPage {
+  height: auto;
+  width: 80%;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  display: none;
+}
+
+.workPage .service_top {
+  width: 80%;
+  margin: auto;
+}
+
+.workPage .service_top p {
+  color: rgb(0, 0, 0);
+}
+
+.workPage .service_top span {
+  color: rgb(255, 77, 0);
+}
+
+.workPage .service_project {
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  color: #fff;
+  gap: 3rem;
+}
+
+.workPage .service_project .service-item {
+  width: 40%;
+  padding: 1rem;
+  border-radius: 8px;
+  background-image: url(/IMG/1111.jpg);
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.workPage .service_project .service-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.workPage .service_project .service-item .icon {
+  height: 80px;
+  width: 80px;
+}
+
+.workPage .service_project .service-item .icon img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.workPage .service_project .service-item h2 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+/* Work page styling Ends here  */
+
+/* contact page styling starts here  */
+
+.contactPage {
+  height: auto;
+  width: 40vw;
+  margin: 2rem auto;
+  background-color: #d5d5d5;
+  display: none;
+}
+
+.contactPage .contact_form {
+  height: 100%;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.contactPage .contact_form h2 {
+  font-size: 2.4rem;
+  text-align: center;
+  color: #000;
+}
+
+.form-control1 {
+  position: relative;
+}
+
+.form-control1 .success input{
+  border-color: #2ecc71;
+}
+
+.form-control1 .error input{
+  border-color: #e74c3c;
+}
+
+.contactPage .form-control1 i {
+  font-size: 1.4rem;
+  color: #000;
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  visibility: hidden;
+}
+
+.form-control1.success i.fa-check{
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control1.error i.fa-circle-exclamation{
+  color: #e74c3c;
+  visibility: visible;
+}
+
+small {
+  font-size: 1.4rem;
+  color: #e74c3c;
+  visibility: hidden;
+}
+
+.form-control1.error small {
+  visibility: visible;
+}
+
+.contactPage .contact_form .beech {
+  margin: 0 10rem;
+}
+
+.contactPage .contact_form label {
+  font-size: 2rem;
+}
+
+.contactPage .contact_form .form-control {
+  font-size: 1.4rem;
+  width: 100%;
+}
+
+.contactPage .contact_form .btn {
+  font-size: 2rem;
+}
+
+.social-contact {
+  background-color: #f7f7f7;
+}
+
+/* contact page styling Ends here  */
+
+/* footer section styling starts*/
+
+#footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #000;
+  color: #fff;
+}
+
+#footer h5 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* footer section styling ends*/

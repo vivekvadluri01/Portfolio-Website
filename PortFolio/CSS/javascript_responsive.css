@@ -1,0 +1,521 @@
+.block {
+  display: block;
+}
+
+@media (min-width: 268px){
+  .container, .container-md, .container-sm {
+      min-width: 100%;
+  }
+  }
+
+/* Large devices (desktops) */
+@media only screen and (max-width: 1180px) {
+  #main {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .container{
+    width: 100% !important;
+  }
+
+  .download_resume .link {
+    width: 30%;
+  }
+
+  .left-side h3:after {
+    width: 200px;
+    left: 32%;
+  }
+
+  .left-side h1 {
+    font-size: 37px;
+  }
+
+  .workPage {
+    width: 100%;
+  }
+
+  .workPage .service_project .service-item h2 {
+    font-size: 1.6rem !important;
+  }
+
+  .font_1_rem {
+    font-size: 2rem !important;
+  }
+
+  .contactPage {
+    width: 60%;
+    padding-bottom: 1rem;
+  }
+
+  .contact_form h2 {
+    font-size: 2rem;
+  }
+
+  .contactPage .contact_form label {
+    font-size: 1.6rem;
+  }
+
+  .contactPage .contact_form .form-control {
+    font-size: 1.4rem !important;
+  }
+
+  .contactPage .contact_form .beech {
+    margin: 0 5rem;
+  }
+
+  .social-contact h3 {
+    font-size: 1.6rem;
+  }
+
+  textarea {
+    font-size: 1.4rem;
+    padding-left: 0.5rem;
+  }
+
+  .contactPage .contact_form .btn {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+
+  .projectsPage {
+    padding: 2rem 6rem;
+  }
+
+  #footer h5 {
+    font-size: 1.7rem;
+  }
+}
+
+
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+  
+    /* .container{
+      width: 100% !important;
+    } */
+
+  .left_container {
+    width: 40% !important;
+  }
+
+  .container .right_container .top {
+    height: 35%;
+  }
+
+  .container .right_container .middle {
+    height: 30%;
+  }
+
+  .container .right_container .bottom {
+    height: 35%;
+  }
+
+  .name h1 {
+    font-size: 3rem;
+  }
+
+  .social_icon i {
+    font-size: 2.2rem;
+  }
+
+  h2 {
+    font-size: 2.4rem !important;
+  }
+
+  .bottom i {
+    font-size: 2rem;
+  }
+
+  .download_resume .link {
+    width: 50% !important;
+  }
+
+  .left-side h3 {
+    font-size: 2rem;
+  }
+
+  .left-side h3:after {
+    width: 100px !important;
+  }
+
+  .left-side h1 {
+    font-size: 2rem !important;
+  }
+
+  .left-side .btn1,
+  .btn2 {
+    font-size: 1.4rem;
+    padding: 6px;
+    margin-right: 5px;
+  }
+
+  .left-side {
+    width: 35%;
+    padding-left: 1rem;
+  }
+
+  .right-side {
+    width: 65%;
+  }
+
+  .mySelf h2 {
+    font-size: 2rem !important;
+  }
+
+  .mySelf p {
+    font-size: 2rem !important;
+  }
+
+  .projectsPage {
+    padding: 2rem 4rem;
+  }
+
+  .projectsPage .all_projects .project-info h3 {
+    font-size: 1.95rem;
+  }
+
+  .projectsPage .all_projects .project-info h2 {
+    font-size: 2.2rem !important;
+  }
+
+  .workPage .service_project {
+    flex-direction: column;
+  }
+
+  .workPage .service_project .service-item {
+    width: 100%;
+  }
+
+  .workPage .service_project .service-item .icon {
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    margin: auto;
+  }
+
+  .mySelf li {
+    font-size: 1.5rem;
+  }
+}
+
+/* Small devices (phones) */
+
+@media only screen and (min-width: 360px) and (max-width: 600px) {
+
+  #main{
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column !important;
+    width: 100 !important;
+  }
+
+  .container .left_container {
+    width: 100%;
+    height: 45%;
+  }
+
+  .container .left_container img {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: block;
+  }
+
+  .container .right_container {
+    width: 100%;
+  }
+
+  .name {
+    justify-content: flex-start !important;
+    padding-left: 1rem;
+  }
+
+  .name h1 {
+    font-size: 2rem !important;
+  }
+
+  .social_icon {
+    padding: 0 2rem;
+  }
+
+  .social_icon i{
+    font-size: 1.8rem;
+  }
+
+  .container .right_container .middle {
+    padding-left: 1rem;
+  }
+
+  .download_resume .link {
+    width: 70% !important;
+  }
+
+  .homePage {
+    background-image: none;
+  }
+
+  h2 {
+    font-size: 1.8rem !important;
+  }
+
+  .bottom i {
+    font-size: 2.4rem;
+  }
+
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .left-side {
+    width: 100%;
+    background-image: linear-gradient(to left, #fff 83%, #c3f5ff 20%);
+    margin: auto;
+  }
+
+  .left-side h3 {
+    font-size: 1.6rem !important;
+  }
+
+  .workPage .service_project {
+    flex-direction: column;
+  }
+
+  .workPage .service_project .service-item {
+    width: 100%;
+  }
+
+  .left-side h3:after {
+    left: 17%;
+  }
+
+  .mySelf h2 {
+    font-size: 2rem !important;
+  }
+
+  .left-side h1 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .left-side h2 {
+    margin-bottom: 11px;
+    font-weight: 500;
+    word-spacing: 4px;
+    font-size: 18px;
+  }
+
+  .left-side .btn1,
+  .btn2 {
+    font-size: 1.4rem;
+    padding: 6px;
+    margin-right: 12px;
+  }
+
+  .right-side {
+    width: 100%;
+  }
+
+  .contactPage {
+    width: 90%;
+  }
+
+  .contact_form h2 {
+    font-size: 1.8rem !important;
+  }
+
+  .projectsPage {
+    padding: 1.5rem 1rem;
+  }
+
+  .font_1_rem {
+    font-size: 1.8rem !important;
+  }
+
+  .workPage .service_project .service-item .icon {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    background-color: antiquewhite;
+  }
+
+  #footer h5 {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+}
+
+
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+
+  #main{
+    width: 100%;
+  }
+
+  .container {
+    flex-direction: column !important;
+  }
+
+  .container .left_container {
+    width: 100%;
+    height: 45%;
+  }
+
+  .container .left_container img {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: block;
+  }
+
+  .container .right_container {
+    width: 100%;
+  }
+
+  .name {
+    justify-content: flex-start !important;
+    padding-left: .5rem;
+  }
+
+  .name h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .social_icon {
+    padding: 0 1rem;
+  }
+
+  .social_icon i{
+    font-size: 1.3rem;
+  }
+
+  .container .right_container .middle {
+    padding-left: .5rem;
+  }
+
+  .download_resume .link {
+    width: 70% !important;
+  }
+
+  .homePage {
+    background-image: none;
+  }
+
+  h2 {
+    font-size: 1.4rem !important;
+  }
+
+  .bottom i {
+    font-size: 1.3rem;
+  }
+
+  main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .left-side {
+    width: 100%;
+    background-image: linear-gradient(to left, #fff 83%, #c3f5ff 20%);
+    margin: auto;
+  }
+
+  .left-side h3 {
+    font-size: 1.2rem !important;
+  }
+
+  .workPage .service_project {
+    flex-direction: column;
+  }
+
+  .workPage .service_project .service-item {
+    width: 100%;
+  }
+
+  .left-side h3:after {
+    left: 17%;
+  }
+
+  .mySelf h2 {
+    font-size: 1.2rem !important;
+  }
+
+  .left-side h1 {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .left-side h2 {
+    margin-bottom: 11px;
+    font-weight: 500;
+    word-spacing: 4px;
+    font-size: 18px;
+  }
+
+  .left-side .btn1,
+  .btn2 {
+    font-size: 1.1rem;
+    padding: 3px;
+    margin-right: 9px;
+  }
+
+  .right-side {
+    width: 100%;
+  }
+
+  .contactPage {
+    width: 90%;
+  }
+
+  .contact_form h2 {
+    font-size: 1.4rem !important;
+  }
+
+  .contactPage .contact_form label {
+    font-size: 1.2rem;
+}
+
+.contactPage .contact_form .form-control {
+  font-size: 1.2rem;
+}
+
+.contactPage .contact_form .form-control {
+  font-size: 1.2rem !important;
+}
+
+  .projectsPage {
+    padding: 1rem .5rem;
+  }
+
+  .font_1_rem {
+    font-size: 1.4rem !important;
+  }
+
+  .workPage .service_project .service-item .icon {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    background-color: antiquewhite;
+  }
+
+  #footer h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  .projectsPage .all_projects .project-info{
+    padding: 10px;
+  }
+}

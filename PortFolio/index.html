@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/javascript_responsive.css"/>
+    <link rel="stylesheet" href="/CSS/root.css" />
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <div id="main_scroll">
+        <div id="main" class="flex-d j-center">
+          <div class="container d-flex">
+            <div class="left_container">
+              <img src="/IMG/dev.png" alt="My Pic" />
+            </div>
+            <div class="right_container d-flex f-direction">
+              <div class="top d-flex align-center j-space-between">
+                <div class="name d-flex align-center j-center">
+                  <h1 class="uppercase">Sachin Thak</h1>
+                </div>
+                <div class="social_icon d-flex align-center j-space-between">
+                  <a href="" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="https://mail.google.com/mail/u/0/?ogbl#inbox" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram" target="_blank"></i></a>
+                  <a href="https://github.com/Sachinthak123" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+              <div class="middle d-flex align-center">
+                <h2>Web Developer and Electronics Engineer</h2>
+              </div>
+              <div class="bottom d-flex align-center">
+                <div
+                  class="home d-flex align-center j-center f-direction"
+                  id="Home"
+                  onclick="showHomePage()"
+                >
+                  <i class="fa-solid fa-house-chimney"></i>
+                  <h2 class="uppercase">Home</h2>
+                </div>
+                <div
+                  class="About d-flex align-center j-center f-direction"
+                  id="Projects"
+                  onclick="showProjectPage()"
+                >
+                  <i class="fa-solid fa-address-card"></i>
+                  <h2 class="uppercase">Projects</h2>
+                </div>
+                <div
+                  class="work d-flex align-center j-center f-direction"
+                  id="Work"
+                  onclick="showWorkPages()"
+                >
+                  <i class="fa-solid fa-briefcase"></i>
+                  <h2 class="uppercase">Services</h2>
+                </div>
+                <div
+                  class="contact d-flex align-center j-center f-direction"
+                  id="Contact"
+                  onclick="showContactPage()"
+                >
+                  <i class="fa-solid fa-mobile-retro"></i>
+                  <h2 class="uppercase">Contact</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="download_resume d-flex align-center j-center">
+            <div class="link d-flex align-center j-center">
+              <i class="fa-solid fa-download"></i>
+              <a href="/">Download CV</a>
+            </div>
+          </div>
+        </div>
+     
+    </div>
+    
+
+    <!-- home page  -->
+    <section class="homePage">
+      <h2 class="font_4_rem">H<span>om</span>e</h2>
+      <main>
+        <div class="left-side">
+          <h3>Hello</h3>
+          <h1>I am <strong>Sachin Thak</strong></h1>
+          <h2>Web Developer and engineer</h2>
+          <a href="#" class="btn1">Hire me</a>
+          <a href="/contactPage" class="btn2">contact me</a>
+        </div>
+        <div class="right-side d-flex j-center">
+          <div class="mySelf d-flex f-direction">
+            <div>
+              <h2>About Me:-</h2>
+              <p class="intro font_1_rem">
+                I'm <strong>Sachin Thak</strong>, a passionate web developer. I
+                believe in the power of technology to transform businesses and
+                bring ideas to life.I am best in front-end development, where I
+                specialize in HTML5, CSS3, JavaScript, Bootstrap and responsive
+                design. I strive to stay updated with the latest web development
+                trends and techniques to deliver high-quality, user-friendly
+                websites that engage and captivate audiences.
+              </p>
+              <p>
+                When I'm not coding, you can find me exploring the great
+                outdoors, Like playing cricket.
+              </p>
+            </div>
+
+            <div>
+              <h2>Skills:-</h2>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Bootstrap</li>
+                <li>Java</li>
+                <li>MySql</li>
+              </ul>
+            </div>
+            <div>
+              <h2>Language Known:-</h2>
+              <ul>
+                <li>Marathi</li>
+                <li>Hindi</li>
+                <li>English</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer id="footer" class="d-flex align-center j-center">
+        <h5>Design with love and copyright &copy;Sachin Thak</h5>
+      </footer>
+    </section>
+
+    <!-- Project page  -->
+
+    <section class="projectsPage">
+      <div class="project_header">
+        <h2 class="font_4_rem">Proj<span>ects</span></h2>
+      </div>
+
+      <div class="all_projects">
+        <div class="projects-items">
+          <div class="project-info">
+            <h2>BANK MANAGEMENT SYSTEM</h2>
+            <h3>(Created by Sachin)</h3>
+            <p class="font_1_rem">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              modi perspiciatis temporibus deleniti eaque numquam consectetur
+              rem molestias unde cum voluptates reiciendis ut, a sapiente
+              repellat vero voluptatum? Dolore modi illo commodi fugit quod
+              voluptatibus libero, illum vero ratione quasi! Similique fugiat
+              nihil, molestias rerum ipsam sed soluta magni incidunt.
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="/IMG/1111.jpg"/>
+          </div>
+        </div>
+        <div class="projects-items">
+          <div class="project-info">
+            <h2>BANK MANAGEMENT SYSTEM</h2>
+            <h3>(Created by Sachin)</h3>
+            <p class="font_1_rem">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              modi perspiciatis temporibus deleniti eaque numquam consectetur
+              rem molestias unde cum voluptates reiciendis ut, a sapiente
+              repellat vero voluptatum? Dolore modi illo commodi fugit quod
+              voluptatibus libero, illum vero ratione quasi! Similique fugiat
+              nihil, molestias rerum ipsam sed soluta magni incidunt.
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="/IMG/1111.jpg"/>
+          </div>
+        </div>
+        <div class="projects-items">
+          <div class="project-info">
+            <h2>BANK MANAGEMENT SYSTEM</h2>
+            <h3>(Created by Sachin)</h3>
+            <p class="font_1_rem">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              modi perspiciatis temporibus deleniti eaque numquam consectetur
+              rem molestias unde cum voluptates reiciendis ut, a sapiente
+              repellat vero voluptatum? Dolore modi illo commodi fugit quod
+              voluptatibus libero, illum vero ratione quasi! Similique fugiat
+              nihil, molestias rerum ipsam sed soluta magni incidunt.
+            </p>
+          </div>
+          <div class="project-img">
+            <img src="/IMG/1111.jpg"/>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="Projects d-flex j-space-between">
+        <div class="projectPic d-flex align-center j-center">
+          <img src="/IMG/dev.png" alt="Project" />
+        </div>
+        <div class="projectInfo d-flex j-center">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            tempora officiis ullam temporibus quod maiores id ab impedit
+            accusamus! Minus, a provident? Ab, hic temporibus? Laborum
+            repellendus expedita voluptatibus impedit quod harum ullam aperiam,
+            quae vel cum odio hic doloribus rerum dolore qui praesentium saepe
+            dolorem quidem non provident iste.
+          </p>
+        </div>
+      </div>
+
+       <div class="Projects d-flex j-space-between">
+        <div class="projectInfo d-flex j-center">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            tempora officiis ullam temporibus quod maiores id ab impedit
+            accusamus! Minus, a provident? Ab, hic temporibus? Laborum
+            repellendus expedita voluptatibus impedit quod harum ullam aperiam,
+            quae vel cum odio hic doloribus rerum dolore qui praesentium saepe
+            dolorem quidem non provident iste.
+          </p>
+        </div>
+
+        <div class="projectPic d-flex align-center j-center">
+          <img src="/IMG/dev.png" alt="Project" />
+        </div>
+      </div>
+
+      <div class="Projects d-flex j-space-between">
+        <div class="projectPic d-flex align-center j-center">
+          <img src="/IMG/dev.png" alt="Project" />
+        </div>
+        <div class="projectInfo d-flex j-center">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            tempora officiis ullam temporibus quod maiores id ab impedit
+            accusamus! Minus, a provident? Ab, hic temporibus? Laborum
+            repellendus expedita voluptatibus impedit quod harum ullam aperiam,
+            quae vel cum odio hic doloribus rerum dolore qui praesentium saepe
+            dolorem quidem non provident iste.
+          </p>
+        </div>
+      </div>  -->
+    
+      <footer id="footer" class="d-flex align-center j-center">
+        <h5>Design with love and copyright &copy;Sachin Thak</h5>
+      </footer>
+    
+    
+    </section>
+
+    <!-- service page  -->
+    <section class="workPage">
+      <div class="service_top d-flex align-center j-center f-direction">
+        <h2 class="section-title font_4_rem">Se<span>rvic</span>es</h2>
+        <p class="font_1_rem">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          distinctio, voluptas maxime corrupti aspernatur quis? Perferendis
+          atque totam, placeat facilis natus soluta quod vel sapiente quisquam
+          veritatis in neque, nesciunt maiores dolorum tempora! Temporibus
+          explicabo veniam nihil et aperiam dolorem eveniet inventore itaque
+          commodi adipisci.
+        </p>
+      </div>
+      <div class="service_project d-flex">
+        <div class="service-item">
+          <div class="icon"><img src="/IMG/dev.png" /></div>
+          <h2>Custome Java Software Development</h2>
+          <p class="font_1_rem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            perferendis est repellendus ex fugiat? Veritatis, ratione dolorem
+            eligendi qui ullam ex non odio nihil aperiam.
+          </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="/IMG/dev.png" /></div>
+          <h2>Custome Java Software Development</h2>
+          <p class="font_1_rem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            perferendis est repellendus ex fugiat? Veritatis, ratione dolorem
+            eligendi qui ullam ex non odio nihil aperiam.
+          </p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="/IMG/dev.png" /></div>
+          <h2>Custome Java Software Development</h2>
+          <p class="font_1_rem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            perferendis est repellendus ex fugiat? Veritatis, ratione dolorem
+            eligendi qui ullam ex non odio nihil aperiam.
+          </p>
+        </div>
+      </div>
+    
+      <footer id="footer" class="d-flex align-center j-center">
+        <h5>Design with love and copyright &copy;Sachin Thak</h5>
+      </footer>
+
+    </section>
+
+    <!-- contact page  -->
+
+    <section class="contactPage">
+      <div class="contact_form d-flex j-center f-direction">
+        <h2><u>Signup here for contact</u></h2>
+        <div class="beech">
+          <form action="" id="form">
+            <div class="mb-3 form-control1">
+              <label for="name" class="form-label">Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                name="name"
+                id="name"
+                aria-describedby="emailHelp"
+                placeholder="Enter Your Full Name"
+                autocomplete="off"
+              />
+              <i class="fa-solid fa-check"></i>
+              <i class="fa-solid fa-circle-exclamation"></i>
+              <small>error</small>
+            </div>
+            <div class="mb-3 form-control1">
+              <label for="email" class="form-label">Email:</label>
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="email"
+                placeholder="Enter Your Email"
+                autocomplete="off"
+              />
+              <i class="fa-solid fa-check"></i>
+              <i class="fa-solid fa-circle-exclamation"></i>
+              <small>error</small>
+            </div>
+            <div class="mb-3 form-control1">
+              <label for="contact" class="form-label">Contact:</label>
+              <input
+                type="text"
+                class="form-control"
+                name="contact"
+                id="contact"
+                placeholder="Enter Your Contact Number"
+                autocomplete="off"
+              />
+              <i class="fa-solid fa-check"></i>
+              <i class="fa-solid fa-circle-exclamation"></i>
+              <small>error</small>
+            </div>
+
+            <div class="mb-3 form-control1">
+              <label for="contact" class="form-label"
+                >Give some suggetion:</label
+              ><br/>
+              <textarea
+                name="textarea"
+                class="form-control"
+                id="textarea"
+                placeholder="Write Something Here"
+                style="font-size: 1.8rem"
+                autocomplete="off"
+              ></textarea>
+              <i class="fa-solid fa-check"></i>
+              <i class="fa-solid fa-circle-exclamation"></i>
+              <small>error</small>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="social-contact">
+        <h3>
+          Contact Number:- <span>8806977066</span>/ <span>9403514772</span>
+        </h3>
+        <h3>Email Address:- <span>sachinthak51@gmai.com</span></h3>
+        <h3>Instagram Profile:- <span>sachin_developer_thak</span></h3>
+      </div>
+
+      <footer id="footer" class="d-flex align-center j-center">
+        <h5>Design with love and copyright &copy;Sachin Thak</h5>
+      </footer>
+    </section>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/JS/script.js"></script>
+    <script src="/JS/valid.js"></script>
+    <script src="/JS/anim.js"></script>
+  </body>
+</html>
