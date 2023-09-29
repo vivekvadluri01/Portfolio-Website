@@ -19,3 +19,20 @@
 .projectsPage .projectInfo p {
   font-size: 1.8rem;
 }
+
+
+<div class="Projects d-flex j-space-between">
+        <div class="projectPic d-flex align-center j-center">
+          <img src="/IMG/dev.png" alt="Project" />
+        </div>
+        <div class="projectInfo d-flex j-center">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            tempora officiis ullam temporibus quod maiores id ab impedit
+            accusamus! Minus, a provident? Ab, hic temporibus? Laborum
+            repellendus expedita voluptatibus impedit quod harum ullam aperiam,
+            quae vel cum odio hic doloribus rerum dolore qui praesentium saepe
+            dolorem quidem non provident iste.
+          </p>
+        </div>
+      </div>
